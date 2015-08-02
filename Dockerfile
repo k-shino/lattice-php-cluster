@@ -1,7 +1,8 @@
 FROM tutum/apache-php
 #RUN apt-get update && apt-get install -yq git && rm -rf /var/lib/apt/lists/*
 RUN rm -fr /app/*
-ADD . /app
+ADD index.php /app
+ADD phpinfo.php /app
 RUN apt-get update && apt-get install -y bridge-utils libcurl3-openssl-dev php5-dev
 RUN pecl -q install raphf
 RUN pecl -q install propro
