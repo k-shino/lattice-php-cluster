@@ -1,5 +1,6 @@
 FROM tutum/apache-php
 #RUN apt-get update && apt-get install -yq git && rm -rf /var/lib/apt/lists/*
+RUN apt-get -y install git
 RUN rm -fr /app/*
 ADD index.php /app/index.php
 ADD phpinfo.php /app/phpinfo.php
