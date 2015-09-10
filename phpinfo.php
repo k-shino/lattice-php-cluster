@@ -1,3 +1,10 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+<body>
+	<div id="wrapper">
+
 <?php
 
 echo "<div class=\"balloon\"><br/>";
@@ -12,3 +19,6 @@ echo "<img src=\"logo.png\" width=\"400px\" />";
 phpinfo(INFO_VARIABLES);
 
 ?>
+	</div>
+</body>
+</html>
