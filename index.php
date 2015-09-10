@@ -54,10 +54,10 @@ function print_route()
 
 echo "<div class=\"balloon\"><br/>";
 echo "IP(VM) = ";
-echo $_SERVER["SERVER_ADDR"];
+echo $_ENV["CF_INSTANCE_IP"];
 echo "<br/>";
 echo "IP(Container) =";
-echo $_ENV["CF_INSTANCE_IP"];
+echo $_SERVER["SERVER_ADDR"];
 echo "</div>";
 echo "<br/>";
 echo "<img src=\"logo.png\" width=\"400px\" />";
