@@ -3,6 +3,7 @@ FROM tutum/apache-php
 RUN rm -fr /app/*
 ADD index.php /app/index.php
 ADD phpinfo.php /app/phpinfo.php
+ADD styles.css /app/styles.css
 RUN apt-get update && apt-get install -y bridge-utils libcurl3-openssl-dev php5-dev
 RUN pecl -q install raphf
 RUN pecl -q install propro
