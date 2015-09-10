@@ -14,7 +14,7 @@ echo $_SERVER["SERVER_ADDR"];
 echo "<br/>";
 echo "IP(Container) =";
 echo $_ENV["CF_INSTANCE_IP"];
-echo "</div>"
+echo "</div>";
 echo "<img src=\"logo.png\" width=\"400px\" />";
 
 phpinfo(INFO_VARIABLES);
