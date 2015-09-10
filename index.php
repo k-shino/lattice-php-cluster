@@ -1,3 +1,10 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+<body>
+	<div id="wrapper">
+		
 <?php
 
 function print_ping($host)
@@ -96,3 +103,6 @@ if(isset($_GET["ip"]))
 }
 
 ?>
+	</div>
+</body>
+</html>
