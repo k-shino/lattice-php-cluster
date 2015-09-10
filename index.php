@@ -64,8 +64,7 @@ echo "<img src=\"logo.png\" width=\"400px\" />";
 echo "<br/><br/>";
 
 
-#echo "phpinfo(local container)";
-#phpinfo(INFO_VARIABLES);
+
 echo "<hr>";
 if(isset($_GET["ip"]))
 {
@@ -79,7 +78,8 @@ if(isset($_GET["ip"]))
         echo $response;
 }
 
-
+echo "phpinfo(local container)";
+phpinfo(INFO_VARIABLES);
 
 // IFCONFIG
 print_ifconfig();
