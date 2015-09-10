@@ -59,7 +59,9 @@ echo "<br/>";
 echo "IP(Container) =";
 echo $_ENV["CF_INSTANCE_IP"];
 echo "</div>";
+echo "<br/>";
 echo "<img src=\"logo.png\" width=\"400px\" />";
+echo "<br/><br/>";
 
 
 #echo "phpinfo(local container)";
